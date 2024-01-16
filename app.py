@@ -16,7 +16,7 @@ def download_avatar_user(avatar_url):
     if response.status_code == 200:
         # Download image
         response_content = response.content
-        filename = 'avatar.png'
+        filename = 'tmp/avatar.png'
         with open(filename, 'wb') as image:
             image.write(response_content)
             return filename
