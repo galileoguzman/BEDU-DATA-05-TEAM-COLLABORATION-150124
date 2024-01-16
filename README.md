@@ -7,7 +7,7 @@ Samples and challenges about data analysis course.
 To run the code in this repository you shall create a virtual environment with `Python` native `venv` module.
 
 ```
-python3 -m venv .venv
+python -m venv .venv
 ```
 
 Do not forget activate your `virtual environment` with:
