@@ -23,5 +23,6 @@ def download_avatar_user(avatar_url):
     return None
 
 
-selected_user = get_github_user('Darriecha')
+name = input("user_name: ")
+selected_user = get_github_user(name)
 print(download_avatar_user(selected_user.get('avatar_url')))
